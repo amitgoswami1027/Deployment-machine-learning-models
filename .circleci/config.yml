@@ -87,7 +87,7 @@ jobs:
             chmod +x ./scripts/publish_model.sh
             ./scripts/publish_model.sh ./packages/regression_model/
 
-section_9_differential_tests:
+  section_9_differential_tests:
     <<: *defaults
     steps:
       - checkout
