@@ -43,7 +43,7 @@ def get_logger(*, logger_name):
 
 
 class Config:
-    DEBUG = False
+    DEBUG = True
     TESTING = False
     CSRF_ENABLED = True
     SECRET_KEY = 'this-really-needs-to-be-changed'
@@ -51,7 +51,7 @@ class Config:
 
 
 class ProductionConfig(Config):
-    DEBUG = False
+    DEBUG = True
     SERVER_PORT = os.environ.get('PORT', 5000)
 
 
