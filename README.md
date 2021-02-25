@@ -56,5 +56,4 @@
 ### Important Links to Read
 * [Testing] : https://sre.google/sre-book/testing-reliability/
 
-Amit 1
-
+Amit 2
